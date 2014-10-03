@@ -31,8 +31,8 @@ function github_plugin_updater_test_init() {
       'github_url' => 'https://github.com/singlebrook/edu-africa-cpt-german',
       'zip_url' => 'https://github.com/singlebrook/edu-africa-cpt-german/archive/master.zip',
       'sslverify' => true,
-      'requires' => '1.0',
-      'tested' => '1.0',
+      'requires' => '4.0',
+      'tested' => '4.0',
       'readme' => 'README.md',
       'access_token' => '',
     );
