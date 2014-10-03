@@ -6,18 +6,18 @@
  * Plugin Name:       Education Africa - CPT-DE
  * Plugin URI:
  * Description:       Registers the custom post types for this site in German.
- * Version:           1.0.3
+ * Version:           1.0.4
  * Author:            Singlebrook
  * Author URI:        http://singlebrook.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       plugin-name
+ * Text Domain:       edu-africa-cpt-german-master
  */
 
 add_action( 'init', 'github_plugin_updater_test_init' );
 function github_plugin_updater_test_init() {
 
-  include_once 'includes/updater.php';
+  include_once('includes/updater.php');
 
   define( 'WP_GITHUB_FORCE_UPDATE', true );
 
@@ -27,7 +27,7 @@ function github_plugin_updater_test_init() {
       'slug' => plugin_basename( __FILE__ ),
       'proper_folder_name' => 'edu-africa-cpt-german-master',
       'api_url' => 'https://api.github.com/repos/singlebrook/edu-africa-cpt-german',
-      'raw_url' => 'https://raw.github.com//singlebrook/edu-africa-cpt-german/master',
+      'raw_url' => 'https://raw.github.com/singlebrook/edu-africa-cpt-german/master',
       'github_url' => 'https://github.com/singlebrook/edu-africa-cpt-german',
       'zip_url' => 'https://github.com/singlebrook/edu-africa-cpt-german/archive/master.zip',
       'sslverify' => true,
