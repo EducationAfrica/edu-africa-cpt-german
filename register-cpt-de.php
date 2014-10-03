@@ -25,7 +25,7 @@ function github_plugin_updater_test_init() {
 
     $config = array(
       'slug' => plugin_basename( __FILE__ ),
-      'proper_folder_name' => 'eduafrica-cpt-de',
+      'proper_folder_name' => 'edu-africa-cpt-german-master',
       'api_url' => 'https://api.github.com/repos/singlebrook/edu-africa-cpt-german',
       'raw_url' => 'https://raw.github.com//singlebrook/edu-africa-cpt-german/master',
       'github_url' => 'https://github.com/singlebrook/edu-africa-cpt-german',
