@@ -6,7 +6,7 @@
  * Plugin Name:       Education Africa - CPT-DE
  * Plugin URI:
  * Description:       Registers the custom post types for this site in German.
- * Version:           1.0.4
+ * Version:           1.0.5
  * Author:            Singlebrook
  * Author URI:        http://singlebrook.com/
  * License:           GPL-2.0+
