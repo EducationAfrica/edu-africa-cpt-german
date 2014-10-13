@@ -211,7 +211,7 @@ function ea_project_init() {
 
   $labels = array(
     'name' => $singular,
-    'singular_name' => $singular,
+    'singular_name' => 'Projekte',
     'menu_name' => $plural,
     'add_new' => 'Add ' . $singular . '',
     'add_new_item' => 'Add New ' . $singular . '',
